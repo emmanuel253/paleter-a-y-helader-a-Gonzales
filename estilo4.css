@@ -1,0 +1,122 @@
+                      * {
+                      margin: 0;
+                      padding: 0;
+                      -webkit-box-sizing: border-box;
+                      -moz-box-sizing: border-box;
+                      box-sizing: border-box;
+                  }
+                  
+                  h1 {
+                      font-family: Arial;
+                      font-size: 60px;
+                      color: rgb(5, 0, 0);
+                      background: white;
+                  }
+                  
+                  ul {
+                      font-family: Arial;
+                      font-size: 30px;
+                      background: white;
+                  }
+                  
+                  body {
+                      color: gold;
+                      background: url(images/image7.jpeg);
+                  }
+                  
+                  header {
+                      width: 100%;
+                      color: gold;
+                  }
+                  
+                  .navegacion {
+                      font-family: Arial;
+                      font-size: 20px;
+                      width: 1000px;
+                      margin: 30px auto;
+                      background: none;
+                      color: white;
+                  }
+                  
+                  .navegacion ul {
+                      list-style: none;
+                  }
+                  
+                  .menu>li {
+                      position: relative;
+                      display: inline-block;
+                  }
+                  
+                  .menu>li>a {
+                      display: block;
+                      padding: 15px 20px;
+                      color: #353535;
+                      font-family: 'Open sans';
+                      text-decoration: none;
+                  }
+                  
+                  .menu li a:hover {
+                      color: #CE7D35;
+                      transition: all .3s;
+                  }
+                  /* Submenu*/
+                  
+                  .submenu {
+                      position: absolute;
+                      background: #333333;
+                      width: 120%;
+                      visibility: hidden;
+                      opacity: 0;
+                      transition: opacity 1.5s;
+                  }
+                  
+                  .submenu li a {
+                      display: block;
+                      padding: 15px;
+                      color: #fff;
+                      font-family: 'Open sans';
+                      text-decoration: none;
+                  }
+                  
+                  .menu li:hover .submenu {
+                      visibility: visible;
+                      opacity: 1;
+                  }
+                  
+                  nav {
+                      font-family: serif;
+                      color: chocolate;
+                  }
+                  
+                  body {
+                      font-family: "roboro", sans-serif;
+                      color: black;
+                      padding: 50px 0;
+                  }
+                  
+                  h2 {
+                      font-family: "roboro", sans-serif;
+                      color: black;
+                      text-transform: uppercase;
+                      text-align: center;
+                      letter-spacing: 20px;
+                  }
+                  
+                  .container {
+                      background: white;
+                      max-width: 1370px;
+                      width: 150%;
+                      margin: 0 auto;
+                      display: flex;
+                  }
+                  
+                  .column {
+                      margin: 0 25px 25px;
+                      box-shadow: 0 1px 3px rgba(0, 0, 0.12), 0 1px 2pxrgba(o, o, o.24);
+                      background: #fff;
+                      border-radius: 25px;
+                      flex-basis: 40%
+                  }
+                  
+                  img {
+                      max-width: 100%;
